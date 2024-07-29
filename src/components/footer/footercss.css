@@ -1,0 +1,179 @@
+footer{ 
+    background-color: #111827;
+    /* position: absolute;
+    width: 100%; */
+}
+
+.footerTop-socials img{
+    width: 24px;
+    height: 24px;
+}
+
+.footerTop-socials{
+    display: flex;
+    gap: 12px;
+    cursor: pointer;
+}
+
+.topPart-Footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 70px 80px;
+
+    height: fit-content;
+}
+
+.footproject{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+}
+
+.footproject-TO-Project{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    
+    cursor: pointer;
+    text-decoration:underline;
+}
+
+.line{
+    width: 48px;
+    height: 0px;
+    border: solid 1px white;
+}
+
+.bottomPart-Footer{
+    background-color: #171d2a;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 70px;
+}
+
+.name-copyright{
+    font-weight: bold;
+}
+
+.contactInfo-footer{
+    font-weight: bold;
+}
+
+.left-topPart{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.left-topPart h3{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.left-topPart p{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.footerTop-socials{
+    padding-top: 15px;
+}
+
+
+
+/* Media Query Section */
+
+@media screen and (max-width: 300px) {
+    .topPart-Footer{
+        padding: 50px 15px;
+    }
+
+    .left-topPart{
+        display: flex;
+        gap: 5px;
+    }
+
+    .bottomPart-Footer{
+        padding: 0 10px;
+    }
+
+    .bottomPart-Footer p{
+        font-size: 12px;
+    }
+}
+
+
+@media screen and (min-width: 301px) and (max-width: 600px) {
+    br{
+        display: block;
+    }
+
+    .topPart-Footer{
+        padding: 50px 15px;
+    }
+
+    .left-topPart{
+        display: flex;
+        gap: 5px;
+    }
+
+    .bottomPart-Footer{
+        padding: 0 10px;
+    }
+
+    .bottomPart-Footer p{
+        font-size: 12px;
+    }
+}
+
+
+@media screen and (min-width: 601px) and (max-width: 800px) {
+    br{
+        display: block;
+    }
+
+    .topPart-Footer{
+        padding: 50px 15px;
+    }
+
+    .left-topPart{
+        display: flex;
+        gap: 5px;
+    }
+
+    .bottomPart-Footer{
+        padding: 0 10px;
+    }
+
+    .bottomPart-Footer p{
+        font-size: 12px;
+    }
+}
+
+
+@media screen and (min-width: 801px) and (max-width: 1100px) {
+    br{
+        display: block;
+    }
+
+    .topPart-Footer{
+        padding: 50px 15px;
+    }
+
+    .left-topPart{
+        display: flex;
+        gap: 5px;
+    }
+
+    .bottomPart-Footer{
+        padding: 0 10px;
+    }
+
+    .bottomPart-Footer p{
+        /* font-size: 12px; */
+    }
+}
+/* Media Query Section Closed */

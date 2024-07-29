@@ -1,0 +1,107 @@
+.thirdContainer-mySkillSet{
+    background-color: #07090d91;
+}
+
+.alltheTools-Items{
+    display: grid !important;
+    grid-template-columns: repeat(6, 1fr);
+}
+
+.theSkillsection-secondContainer{
+     padding: 50px 80px;
+
+     display: flex;
+     flex-direction: column;
+     gap: 60px;
+}
+
+.theTitleSkill{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+}
+
+.titleOnlySkills{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #374151;
+    width: 100%;
+    border-radius: 9px;
+    height: 55px;
+    font-weight: bold;
+}
+
+.alltheTools-Items{
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+}
+
+.theTools-toolsSection{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.theTools-toolsSection img{
+    width: 60px;
+    height: 60px;
+}
+
+
+/* Media Query Section */
+
+@media screen and (max-width: 300px) {
+    .theSkillsection-secondContainer{
+        padding: 30px 15px;
+    }
+
+    .alltheTools-Items{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+    }
+}
+
+
+@media screen and (min-width: 301px) and (max-width: 600px) {
+    .theSkillsection-secondContainer{
+        padding: 30px 15px;
+    }
+
+    .alltheTools-Items{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+    }
+}
+
+
+@media screen and (min-width: 601px) and (max-width: 800px) {
+    .theSkillsection-secondContainer{
+        padding: 30px 15px;
+    }
+
+    .alltheTools-Items{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 20px;
+    }
+}
+
+
+@media screen and (min-width: 801px) and (max-width: 1100px) {
+    .theSkillsection-secondContainer{
+        padding: 30px 15px;
+    }
+
+    .alltheTools-Items{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 20px;
+    }
+}
+/* Media query Section Closed */

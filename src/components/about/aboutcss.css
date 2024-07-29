@@ -1,0 +1,166 @@
+/* -About Me- */
+.secondContainer-aboutMe{
+    display: flex;
+    flex-direction: column;
+    padding: 40px 80px;
+    gap: 30px;
+
+    background-color: #111827;
+}
+
+.title-actual-content-aboutMe{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.textContents-about{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contents-for-aboutMe{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.actualContents-aboutMe{
+    width: 584px;
+    height: fit-content;
+    /* border: solid white 1px; */
+}
+
+.keysStrengths-UL-about{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.keysStrengths-UL-about li{
+    text-indent: 50px;
+    list-style-type: none;
+}
+
+.myImg-about img{
+    width: 350px;
+    height: 400px;
+    border-radius: 10px;
+    border: solid white 1px;
+
+    object-fit: cover;
+    animation: mover 2s infinite alternate;
+}
+
+.aboutMe-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #374151;
+    width: 100%;
+    border-radius: 9px;
+    height: 55px;
+    font-weight: bold;
+}
+
+.title-actual-content-aboutMe h2{ 
+    font-weight: bold;
+    font-size: 25px;
+}
+/* -About Me- || closed */
+
+
+/* Media Query Section */
+
+@media screen and (max-width: 300px) {
+    .secondContainer-aboutMe{
+        padding: 30px 15px;
+    }
+
+    .contents-for-aboutMe{
+        display: flex;
+        /* flex-direction: column; */
+        gap: 20px;
+    }
+
+    .myImg-about{
+        display: none;
+    }
+
+    .keysStrengths-UL-about li{
+        text-indent: unset;
+    }
+}
+
+
+@media screen and (min-width: 301px) and (max-width: 600px) {
+    .secondContainer-aboutMe{
+        padding: 30px 15px;
+    }
+
+    .contents-for-aboutMe{
+        display: flex;
+        /* flex-direction: column; */
+        gap: 20px;
+    }
+
+    .myImg-about{
+        display: none;
+    }
+
+    .keysStrengths-UL-about li{
+        text-indent: unset;
+    }
+}
+
+
+@media screen and (min-width: 601px) and (max-width: 800px) {
+    .secondContainer-aboutMe{
+        padding: 30px 15px;
+    }
+
+    .contents-for-aboutMe{
+        display: flex;
+        /* flex-direction: column; */
+        gap: 20px;
+    }
+
+    .myImg-about{
+        display: none;
+    }
+
+    .keysStrengths-UL-about li{
+        text-indent: 20px;
+    }
+}
+
+
+@media screen and (min-width: 801px) and (max-width: 1100px) {
+    .secondContainer-aboutMe{
+        padding: 30px 15px;
+    }
+
+    .contents-for-aboutMe{
+        display: flex;
+        /* flex-direction: column-reverse; */
+        gap: 20px;
+    }
+
+    .myImg-about{
+        /* display: none; */
+    }
+
+    .myImg-about img{
+        animation: none;
+        width: 350px;
+        height: 350px;
+    }
+
+    .keysStrengths-UL-about li{
+        text-indent: 20px;
+    }
+}
+
+/* Media Query Section Closed */
