@@ -11,6 +11,7 @@ import safeKeyProjectImage from "./assets/safe key - project img.png"
 import noteappProjectImage from "./assets/note-app project image.png"
 import socialFlowProjectImage from "./assets/socialFlow - project Image.png"
 import TerraverdeImage from "./assets/Terraverde - Google Chrome 8_7_2024 12_47_30 AM.png"
+import SlowSleepImg from "./assets/Slow Sleep Records and 2 more pages - Personal - Microsoft​ Edge 9_25_2024 8_46_48 AM.png"
 
 function Projects() { 
     const { projectsRef } = useScrollContext();
@@ -70,6 +71,14 @@ function Projects() {
                 projectName = "Note-App"
                 projectDescription = "This app is a lightweight note-taking application that enables users to jot down and store notes locally on their device. Built using React, this straightforward app prioritizes ease of use and efficiency."
                 projectTools = "#React #CSS"
+            /> 
+
+            <ProjectProps
+                projectImage = {SlowSleepImg}
+                projectLink = "https://slowsleeprecords.com"
+                projectName = "Slow Sleep Records"
+                projectDescription = "This is a record label website that showcases new releases & artist biography data. Authorized users have the ability to visit the dashboard & create different data values. This webiste is built using Next JS for the frontend & Node Express for the backend."
+                projectTools = "#Next JS #Node/Express #CSS #Prisma #Postgre"
             /> 
 
            </div>
