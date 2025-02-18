@@ -35,7 +35,7 @@ function Projects() {
         <div id="the-project-container">
 
             <ProjectProps
-                    projectImage = {myProfile}
+                    projectImage = {myProfileImage}
                     projectLink = "https://my-profile-client.vercel.app//"
                     projectName = "myProfile"
                     projectDescription = "myProfile is a versatile app for sharing your story effortlessly. Showcase your journey, skills, and passions with customizable profiles and interactive features, perfect for all who is looking to connect and express themselves."
