@@ -12,6 +12,7 @@ import noteappProjectImage from "./assets/note-app project image.png"
 import socialFlowProjectImage from "./assets/socialFlow - project Image.png"
 import TerraverdeImage from "./assets/Terraverde - Google Chrome 8_7_2024 12_47_30 AM.png"
 import SlowSleepImg from "./assets/Slow Sleep Records and 2 more pages - Personal - Microsoft​ Edge 9_25_2024 8_46_48 AM.png"
+import myProfileImage from "./assets/myProfile - Personal - Microsoft​ Edge 2_18_2025 1_15_03 PM.png"
 
 function Projects() { 
     const { projectsRef } = useScrollContext();
@@ -32,6 +33,14 @@ function Projects() {
 
         {/* All project props being passed */}
         <div id="the-project-container">
+
+            <ProjectProps
+                    projectImage = {myProfile}
+                    projectLink = "https://my-profile-client.vercel.app//"
+                    projectName = "myProfile"
+                    projectDescription = "myProfile is a versatile app for sharing your story effortlessly. Showcase your journey, skills, and passions with customizable profiles and interactive features, perfect for all who is looking to connect and express themselves."
+                    projectTools = "#React #Next.js #CSS #postgresql #Prisma #Node.js"
+                /> 
 
             <ProjectProps
                 projectImage = {ElysiumProjectImage}
