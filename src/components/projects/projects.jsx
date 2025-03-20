@@ -13,6 +13,7 @@ import socialFlowProjectImage from "./assets/socialFlow - project Image.png"
 import TerraverdeImage from "./assets/Terraverde - Google Chrome 8_7_2024 12_47_30 AM.png"
 import SlowSleepImg from "./assets/Slow Sleep Records and 2 more pages - Personal - Microsoft​ Edge 9_25_2024 8_46_48 AM.png"
 import myProfileImage from "./assets/myProfile - Personal - Microsoft​ Edge 2_18_2025 1_15_03 PM.png"
+import BlogFusion from "./assets/Blog Fusion - Google Chrome 3_19_2025 7_55_22 PM.png"
 
 function Projects() { 
     const { projectsRef } = useScrollContext();
@@ -33,6 +34,14 @@ function Projects() {
 
         {/* All project props being passed */}
         <div id="the-project-container">
+
+            <ProjectProps
+                    projectImage = {BlogFusion}
+                    projectLink = "https://blog-fusion-zeta.vercel.app"
+                    projectName = "BlogFusion"
+                    projectDescription = "BlogFusion is a dynamic web application that enables users to authenticate and create blogs on a variety of topics. Built with React, Next.js, Prisma, and PostgreSQL, it offers a seamless and efficient blogging experience."
+                    projectTools = "#Next JS #CSS #Prisma #Postgre"
+                /> 
 
             <ProjectProps
                     projectImage = {myProfileImage}
