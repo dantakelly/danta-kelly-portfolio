@@ -60,6 +60,14 @@ function Projects() {
             /> 
 
             <ProjectProps
+                projectImage = {SlowSleepImg}
+                projectLink = "https://slowsleeprecords.com"
+                projectName = "Slow Sleep Records"
+                projectDescription = "This is a record label website that showcases new releases & artist biography data. Authorized users have the ability to visit the dashboard & create different data values. This webiste is built using Next JS for the frontend & Node Express for the backend."
+                projectTools = "#Next JS #Node/Express #CSS #Prisma #Postgre"
+            /> 
+
+            <ProjectProps
                 projectImage = {TerraverdeImage}
                 projectLink = "https://terraverde-dusky.vercel.app/"
                 projectName = "Terraverde"
@@ -89,14 +97,6 @@ function Projects() {
                 projectName = "Note-App"
                 projectDescription = "This app is a lightweight note-taking application that enables users to jot down and store notes locally on their device. Built using React, this straightforward app prioritizes ease of use and efficiency."
                 projectTools = "#React #CSS"
-            /> 
-
-            <ProjectProps
-                projectImage = {SlowSleepImg}
-                projectLink = "https://slowsleeprecords.com"
-                projectName = "Slow Sleep Records"
-                projectDescription = "This is a record label website that showcases new releases & artist biography data. Authorized users have the ability to visit the dashboard & create different data values. This webiste is built using Next JS for the frontend & Node Express for the backend."
-                projectTools = "#Next JS #Node/Express #CSS #Prisma #Postgre"
             /> 
 
            </div>
