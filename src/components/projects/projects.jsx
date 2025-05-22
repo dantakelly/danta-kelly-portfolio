@@ -14,6 +14,7 @@ import TerraverdeImage from "./assets/Terraverde - Google Chrome 8_7_2024 12_47_
 import SlowSleepImg from "./assets/Slow Sleep Records and 2 more pages - Personal - Microsoft​ Edge 9_25_2024 8_46_48 AM.png"
 import myProfileImage from "./assets/myProfile - Personal - Microsoft​ Edge 2_18_2025 1_15_03 PM.png"
 import BlogFusion from "./assets/Blog Fusion - Google Chrome 3_19_2025 7_55_22 PM.png"
+import Euphoniczen from "./assets/Euphoniczen and 1 more page - Personal - Microsoft​ Edge 5_22_2025 9_56_26 AM.png"
 
 function Projects() { 
     const { projectsRef } = useScrollContext();
@@ -34,6 +35,14 @@ function Projects() {
 
         {/* All project props being passed */}
         <div id="the-project-container">
+
+            <ProjectProps
+                    projectImage = {Euphoniczen}
+                    projectLink = "https://euphoniczen.com"
+                    projectName = "Euphoniczen"
+                    projectDescription = "Euphoniczen is a SaaS tool that helps music creators and industry professionals discover playlist curators by analyzing playlist descriptions, leveraging the full capabilities of Spotify’s advanced API."
+                    projectTools = "#Next JS #CSS #Prisma #Postgre #Next Auth v5 #TypeScript"
+                /> 
 
             <ProjectProps
                     projectImage = {BlogFusion}
